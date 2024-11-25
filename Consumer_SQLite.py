@@ -21,7 +21,7 @@ def update_task_status(task_id, new_status):
 def perform_task(task_id, task_name):
     print(f"Rozpoczynanie zadania: {task_name}")
     update_task_status(task_id, 'in_progress')
-    time.sleep(30)  # Symulacja czasu trwania zadania
+    time.sleep(30) 
     update_task_status(task_id, 'done')
     print(f"Zadanie zakończone: {task_name}")
 
